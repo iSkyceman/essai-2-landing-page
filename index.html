@@ -27,17 +27,21 @@
 
 <body class="bg-white text-[var(--text-dark)]">
   <!-- HÉRO HEADER -->
-  <header class="bg-[var(--gris-clair)] py-20 px-6 text-center fade-in">
-    <h1 class="text-4xl md:text-6xl font-bold text-[var(--bleu-indus)] mb-4">Industrie 5.0 : +15 % de productivité, -20 % de coûts, 99,5 % de disponibilité – Prenez une longueur d’avance.</h1>
-    <p class="text-xl max-w-3xl mx-auto mb-6">Transformez votre chaîne industrielle grâce à l’IA certifiée : performance, durabilité, sécurité. Résultats concrets en 72h.</p>
-    <a href="#contact" class="inline-block bg-[var(--orange-tech)] text-white font-bold px-6 py-3 rounded shadow-lg hover:opacity-90">Agissez maintenant pour transformer votre performance industrielle</a>
-    <div class="mt-10 grid gap-4 md:grid-cols-4">
-      <img src="/images/usine.jpg" alt="Usine moderne avec IA" class="rounded shadow">
-      <img src="/images/dashboard.jpg" alt="Dashboard IA industriel" class="rounded shadow">
-      <img src="/images/equipe.jpg" alt="Équipe dirigeante IA" class="rounded shadow">
-      <img src="/images/badges.jpg" alt="Certifications ISO, Green Label, AI Act" class="rounded shadow">
+  <header class="bg-[var(--gris-clair)] py-24 px-6 text-center fade-in">
+    <h1 class="text-4xl md:text-6xl font-bold text-[var(--bleu-indus)] mb-6">Industrie 5.0 : +15 % de productivité, -20 % de coûts, 99,5 % de disponibilité – Prenez une longueur d’avance.</h1>
+    <p class="text-xl max-w-3xl mx-auto mb-8">Transformez votre chaîne industrielle grâce à l’IA certifiée : performance, durabilité, sécurité. Résultats concrets en 72h.</p>
+    <a href="#contact" class="inline-block bg-[var(--orange-tech)] text-white font-bold text-lg px-8 py-4 rounded shadow-lg hover:bg-orange-500 transition">Agissez maintenant pour transformer votre performance industrielle</a>
+    <!-- Visuels crédibilité -->
+    <div class="mt-12 grid gap-6 md:grid-cols-4">
+      <img src="images/usine.jpg" alt="Vue d'une usine moderne équipée d'IA" class="rounded shadow">
+      <img src="images/dashboard.jpg" alt="Interface Dashboard IA de performance industrielle" class="rounded shadow">
+      <img src="images/equipe.jpg" alt="Portrait de l’équipe dirigeante iSkyce" class="rounded shadow">
+      <img src="images/badges.jpg" alt="Badges de certification ISO 9001, Green Label, AI Act" class="rounded shadow">
     </div>
   </header>
+
+  <!-- ESPACE SUPPLÉMENTAIRE ENTRE SECTIONS -->
+  <div class="my-12"></div>
 
   <!-- PHRASE D’URGENCE AVANT LE FORMULAIRE -->
   <section class="bg-white text-center py-12 px-6 fade-in">
@@ -45,62 +49,32 @@
   </section>
 
   <!-- FORMULAIRE DE CONTACT -->
-  <section id="contact" class="py-16 px-6 md:px-20 fade-in">
-    <h2 class="text-3xl font-bold text-[var(--bleu-indus)] mb-4">Demandez votre consultation stratégique personnalisée</h2>
-    <form class="grid gap-4 max-w-2xl mx-auto">
-      <input type="text" name="secteur" placeholder="Secteur d’activité" required class="p-3 border rounded">
-      <input type="text" name="taille" placeholder="Taille de l’entreprise" class="p-3 border rounded">
-      <input type="text" name="ca" placeholder="Chiffre d’affaires" class="p-3 border rounded">
-      <input type="text" name="defi" placeholder="Défi principal" class="p-3 border rounded">
-      <input type="email" name="email" placeholder="Email" required class="p-3 border rounded">
-      <input type="tel" name="tel" placeholder="Téléphone (optionnel)" class="p-3 border rounded">
-      <button type="submit" class="bg-[var(--bleu-indus)] text-white font-bold px-6 py-3 rounded hover:opacity-90">Envoyer ma demande</button>
+  <section id="contact" class="py-20 px-6 md:px-20 fade-in">
+    <h2 class="text-3xl font-bold text-[var(--bleu-indus)] mb-6">Demandez votre consultation stratégique personnalisée</h2>
+    <form class="grid gap-6 max-w-2xl mx-auto">
+      <input type="text" name="secteur" placeholder="Secteur d’activité" required class="p-4 border rounded">
+      <input type="text" name="taille" placeholder="Taille de l’entreprise" class="p-4 border rounded">
+      <input type="text" name="ca" placeholder="Chiffre d’affaires" class="p-4 border rounded">
+      <input type="text" name="defi" placeholder="Défi principal" class="p-4 border rounded">
+      <input type="email" name="email" placeholder="Email" required class="p-4 border rounded">
+      <input type="tel" name="tel" placeholder="Téléphone (optionnel)" class="p-4 border rounded">
+      <button type="submit" class="bg-[var(--bleu-indus)] text-white font-bold text-lg px-8 py-4 rounded hover:bg-blue-800 transition">Envoyer ma demande</button>
     </form>
-    <!-- Sécurité -->
-    <div class="text-center mt-4 text-sm text-gray-600">
-      <p><i class="fas fa-lock"></i> Vos données sont confidentielles, cryptées ISO 27001. Réponse sous 24h – Certifié Veritas. Aucun spam.</p>
-      <p class="mt-2 text-sm"><i class="fas fa-shield-alt text-green-600"></i> Badge : Sécurité & confidentialité certifiée</p>
+
+    <!-- Badge sécurité sous formulaire -->
+    <div class="text-center mt-6 text-sm text-gray-600">
+      <p><i class="fas fa-shield-alt text-green-600"></i> Sécurité & confidentialité – Données cryptées ISO 27001. Certifié Veritas.</p>
     </div>
-    <!-- Coordonnées -->
+
+    <!-- Coordonnées complémentaires -->
     <div class="text-center mt-6 text-sm">
-      <p>Pour toute question, contactez-nous à : <a href="mailto:iskyceman@gmail.com" class="underline">iskyceman@gmail.com</a> ou au <a href="tel:+33781289088" class="underline">+33 781289088</a></p>
-    </div>
-  </section>
-
-  <!-- SECTION PREUVES SOCIALES -->
-  <section class="bg-[var(--gris-clair)] py-16 px-6 fade-in">
-    <h2 class="text-3xl font-bold text-center text-[var(--bleu-indus)] mb-6">Ils nous font confiance</h2>
-    <div class="flex flex-wrap justify-center gap-6 mb-6">
-      <img src="/images/logos-iso.png" alt="Logos ISO, Green Label, AI Act, Veritas, Palo Alto, MSCI, AWS, Azure" class="h-12">
-    </div>
-    <div class="text-center">
-      <p class="text-lg mb-4">“98 % de clients satisfaits sur 150 audits – Vérifié par Veritas Industry Solutions.”</p>
-      <img src="/images/dashboard-performance360.jpg" alt="Capture Dashboard IA Performance 360" class="mx-auto rounded shadow max-w-xl">
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="py-16 px-6 fade-in">
-    <h2 class="text-3xl font-bold text-center text-[var(--bleu-indus)] mb-6">FAQ</h2>
-    <div class="max-w-3xl mx-auto space-y-4">
-      <div>
-        <h3 class="font-semibold">Est-ce adapté à mon secteur ?</h3>
-        <p>Oui. Nos audits sont personnalisés selon votre activité, qu’il s’agisse d’agroalimentaire, logistique, mécanique ou autre.</p>
-      </div>
-      <div>
-        <h3 class="font-semibold">Quels sont les délais ?</h3>
-        <p>Vous recevez un premier livrable sous 72h ouvrées après validation de votre dossier.</p>
-      </div>
-      <div>
-        <h3 class="font-semibold">Et la sécurité de mes données ?</h3>
-        <p>Nos infrastructures sont certifiées ISO 27001 et hébergées sur des serveurs européens. Vos données sont protégées à chaque étape.</p>
-      </div>
+      <p>Pour toute question, contactez-nous à : <a href="mailto:iskyceman@gmail.com" class="underline">iskyceman@gmail.com</a> ou au <a href="tel:+33781289088" class="underline">+33 781289088</a></p>
     </div>
   </section>
 
   <!-- FOOTER COMPLET -->
-  <footer class="bg-[var(--gris-clair)] text-sm text-center text-gray-600 py-8">
-    <div class="mb-2">
+  <footer class="bg-[var(--gris-clair)] text-sm text-center text-gray-600 py-10">
+    <div class="mb-4">
       <button onclick="document.getElementById('mentions-legales').classList.toggle('hidden')" class="underline text-blue-700">Mentions légales</button>
     </div>
     <div id="mentions-legales" class="hidden text-left max-w-2xl mx-auto">
@@ -110,7 +84,7 @@
       <p><strong>Email :</strong> <a href="mailto:iskyceman@gmail.com">iskyceman@gmail.com</a></p>
       <p><strong>Téléphone :</strong> <a href="tel:+33781289088">+33 781289088</a></p>
     </div>
-    <div class="mt-4 flex justify-center space-x-4">
+    <div class="mt-6 flex justify-center space-x-4">
       <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin text-blue-700 text-xl"></i></a>
       <a href="#" aria-label="YouTube"><i class="fab fa-youtube text-red-600 text-xl"></i></a>
     </div>
@@ -118,6 +92,7 @@
 
   <!-- SCROLL FADE-IN SCRIPT -->
   <script>
+    // Animation légère au scroll pour les éléments avec la classe .fade-in
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -126,6 +101,7 @@
         }
       });
     }, { threshold: 0.1 });
+
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
   </script>
 </body>
